@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کوچه ادویه | فروشگاه دمو برای تمرین گوگل آنالیتیکز</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- =========================================================
+     گوگل تگ منیجر (GTM) — کد زیر رو با کانتینر خودت جایگزین کن
+     ۱) به tagmanager.google.com برو و یه Container بساز (GTM-XXXXXXX)
+     ۲) این دو تیکه کد رو جایگزین GTM-XXXXXXX کن (یکی این‌جا، یکی تو body)
+     ========================================================= -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">ک</span>
+      کوچه ادویه
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">خانه</a>
+      <a href="products.html">محصولات</a>
+      <a href="contact.html">تماس با ما</a>
+    </nav>
+    <div class="cart-pill">🧺 سبد: <span class="cart-count">0</span></div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap" style="display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;">
+    <div>
+      <span class="eyebrow">سایت تمرینی — برای یادگیری GTM و GA4</span>
+      <h1>عطر ادویه‌های تازه<br>مستقیم از عطاری تا آشپزخانه</h1>
+      <p>این یک فروشگاه دمو است؛ هر کلیک، هر افزودن به سبد و هر فرم روی این سایت یک رویداد واقعی برای تمرین در گوگل تگ منیجر و گوگل آنالیتیکز تولید می‌کند.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="products.html">مشاهده محصولات</a>
+        <a class="btn btn-outline" href="contact.html">تماس با ما</a>
+      </div>
+    </div>
+    <div class="hero-jar">
+      <div class="batch">بچ شماره ۰۱۴ — برداشت پاییز</div>
+      <h3>زعفران سرگل درجه یک</h3>
+      <p>خشک‌شده در سایه، بسته‌بندی دستی. مناسب تست رویداد «مشاهده محصول».</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-title">
+      <h2>پرفروش‌های این هفته</h2>
+      <span>برای هر کلیک، یک رویداد dataLayer ثبت می‌شود</span>
+    </div>
+    <div class="grid">
+      <div class="card" data-cat="spice">
+        <div class="emoji">🌶️</div>
+        <h3>فلفل قرمز آسیاب</h3>
+        <p class="desc">تند و معطر، مناسب خورش و کباب.</p>
+        <div class="price-row">
+          <span class="price">۸۵,۰۰۰ تومان</span>
+          <button class="add-btn" data-gtm-event="add_to_cart" data-item="فلفل قرمز آسیاب" data-price="85000">افزودن به سبد</button>
+        </div>
+      </div>
+      <div class="card" data-cat="herb">
+        <div class="emoji">🌿</div>
+        <h3>گل گاوزبان خشک</h3>
+        <p class="desc">دمنوش آرام‌بخش، برداشت تازه.</p>
+        <div class="price-row">
+          <span class="price">۶۰,۰۰۰ تومان</span>
+          <button class="add-btn" data-gtm-event="add_to_cart" data-item="گل گاوزبان" data-price="60000">افزودن به سبد</button>
+        </div>
+      </div>
+      <div class="card" data-cat="spice">
+        <div class="emoji">🟡</div>
+        <h3>زعفران سرگل</h3>
+        <p class="desc">درجه یک، بسته‌بندی یک‌مثقالی.</p>
+        <div class="price-row">
+          <span class="price">۴۵۰,۰۰۰ تومان</span>
+          <button class="add-btn" data-gtm-event="add_to_cart" data-item="زعفران سرگل" data-price="450000">افزودن به سبد</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="newsletter">
+      <div>
+        <h3>عضو خبرنامه کوچه ادویه شو</h3>
+        <p>هر هفته یک پیشنهاد ویژه — این فرم رویداد newsletter_signup می‌فرستد.</p>
+      </div>
+      <form id="newsletter-form">
+        <input type="email" placeholder="ایمیل شما" required>
+        <button class="btn btn-solid" type="submit">عضویت</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© ۱۴۰۴ کوچه ادویه — سایت تمرینی</span>
+    <span>ساخته‌شده برای تمرین GTM / GA4</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
